@@ -1,0 +1,105 @@
+  @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+  @font-face{
+  font-family: 'Press Start 2P', cursive;
+ src: url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+  src: url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+}
+
+h1.App-title {
+  background: black;
+  color:white;
+  font-family: 'Press Start 2P', cursive;
+  src: url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+  font-size: 26px;
+  margin-top: 0;
+  font: bold;
+  border-top: 7px dotted white;
+  font-display: center;
+  padding-top: 8px;
+}
+
+div.App {
+  background: black;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  src: url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+}
+
+#killCount{
+  font-family: 'Press Start 2P', cursive;
+  src: url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+  height: 20px;
+  border-top: 0px;
+  background: red;
+  width: 50%;
+  padding-left: 20px;
+}
+
+ul.nav.nav-tabs{
+  border-top: 7px dotted white;
+	box-shadow: inset 0 3px 0 0 white, 0 -3px 0 0 white;
+  border-bottom: 7px dotted white;
+  box-shadow: inset 0 -3px 0  black, 0 3px 0 black;
+  background: black;
+  border-left:7px dotted white;
+  padding: 6px;
+}
+
+.nav-item{
+  border-right:7px dotted white;
+  background: black;
+  padding-top: 0px;
+  border-bottom: 0px;
+  padding: 0px;
+}
+#enemyDiv {
+  margin-top: 60px;
+  padding-right: 0px;
+  border-top: 0;
+}
+#playerDeaths {
+  background: rgb(0, 255, 98);
+  padding-left: 20px;
+}
+
+#actionLog {
+  background: rgb(177, 151, 151);
+  padding-left: 20px;
+}
+
+#playerHealth {
+  padding-left: 40px;
+}
+
+#enemyHealth{
+  padding-right: 30px;
+}
+
+#enemyClick{
+  background: rgb(58, 56, 56);
+  padding-left: 10px;
+}
+
+#buttonIn{
+  background: blue;
+}
+
+#bossesBeaten{
+  background:rgb(97, 182, 231);
+  padding-left: 20px;
+  width: 50%
+}
+
+#saveButton{
+  background: blue;
+}
+
+#loadButton{
+  background: blue;
+}

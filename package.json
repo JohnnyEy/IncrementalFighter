@@ -1,0 +1,33 @@
+{
+  "name": "incrementalfighter",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "firebase": "^5.2.0",
+    "firebase-tools": "^3.19.3",
+    "if-env": "^1.0.4",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.1",
+    "react": "^16.4.1",
+    "react-audio-player": "^0.10.0",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4",
+    "react-modal-login": "^1.2.1",
+    "react-router-dom": "^4.1.2"
+  },
+  "scripts": {
+    "start": "yarn seed && concurrently \"yarn start:prod\" \"cd client && yarn start\"",
+    "start:prod": "nodemon server.js",
+    "build": "yarn seed && cd client && yarn build",
+    "seed": "node scripts/seedDB.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC"
+}
